@@ -1,0 +1,9 @@
+public class TestCalcChain {
+	
+	public static void main(String[]args){
+		
+		// Here I define all of the objects in the chain
+		
+		Chain ChainCalc1 = new AddNumbers();
+	}
+}

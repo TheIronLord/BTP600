@@ -1,0 +1,12 @@
+public class TestCalcChain {
+	
+	public static void main(String[]args){
+		
+		// Here I define all of the objects in the chain
+		
+		Chain ChainCalc1 = new AddNumbers();
+		Chain ChainCalc2 = new SubtractNumbers();
+		Chain ChainCalc3 = new MultNumbers();
+		Chain ChainCalc4 = new DivideNumbers();
+	}
+}
